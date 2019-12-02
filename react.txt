@@ -1,0 +1,16 @@
+npm create-react-app -g /* Insyala o create-react globalmente */
+create-react-app NOME_DO_APP /* Cria a aplicação */
+npm start /* Inicia o servidor do React padrao */
+npm run eject /* Mostra as configurações do WebPack */
+
+npm i node-sass --save
+npm i sass-loader --save-dev /* Não é preciso configurar os loaders */ 
+npm i react-redux redux prop-types react-dnd react-dnd-html5-backend --save
+npm i  react-router-redux@next history --save
+npm i uuid --save
+
+import * as serviceWorker from './serviceWorker';
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+serviceWorker.unregister();
